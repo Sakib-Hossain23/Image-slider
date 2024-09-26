@@ -15,3 +15,6 @@ This is a JavaScript image slider feature made with JavaScript, HTML, and CSS.Yo
 HTML
 CSS
 JavaScript
+
+# Live Demo
+Go to link [Image-slider](https://sakib-hossain23.github.io/Image-slider/).
