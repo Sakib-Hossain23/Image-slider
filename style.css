@@ -1,0 +1,66 @@
+body {
+    background-color: #1f1f1f;
+}
+
+.slide {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1 {
+    background-image: url("https://www.travelandleisure.com/thmb/6LKBcNi2iFSiBdTpp_4xTqHenfg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-banff-national-park-BEAUTYCANADA0623-fc3b0496f842412f9a8299f8ffd18499.jpg");
+}
+
+.slide2 {
+    background-image: url("https://aviator.indus.travel/qstvsndfvb/uploads/2022/03/summer-g80a8154d9_1280.jpg");
+}
+
+.slide3 {
+    background-image: url("https://www.authentikcanada.com/uploads/images/orig/blog/3lac-peyto.jpg");
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #ffffff9c transparent transparent;
+    left: 0;
+    margin-left: 20px;
+}
+
+#arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #ffffff9c;
+    right: 0;
+    margin-right: 20px;
+}
+
+.auto-slide-btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #121212;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #e0e0e0;
+    border-radius: 5px;
+}
+
